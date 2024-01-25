@@ -1,0 +1,68 @@
+  
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* RESET */
+  ul {
+    list-style: none;
+  }
+  a {
+    color: var(--color1);
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+      /* GOLBAL CLASSES */
+  
+  .container {
+    width: 1250px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-right: 75px;
+    padding-left: 75px;
+  }
+  
+  .wrapper {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Start Header */
+  .planktonN-header{
+   padding-bottom: 0px;
+   margin:-15px;
+   position: sticky;
+  top: 0px;
+  z-index: 1;
+  }
+  .header-cont{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+  }
+  
+  .header-grid{
+    padding: 2rem;
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+        gap: 2rem;
+  }
+  
+  .header-img{
+    width: 100%;
+  }
+ 
