@@ -63,6 +63,13 @@
   }
   
   .header-img{
+    width: 80%;
+  }
+
+  .iconos{
+    display: inline-block;
     width: 100%;
+    word-spacing: 50px;
+    margin-bottom: 50px;
   }
  
