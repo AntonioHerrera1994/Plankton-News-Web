@@ -40,11 +40,15 @@
   
   /* Start Header */
   .planktonN-header{
-   padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
    margin:-15px;
    position: sticky;
   top: 0px;
   z-index: 1;
+  border-bottom:solid;
+  border-width: 1px;
+  border-color: #00000013;
   }
   .header-cont{
     width: 1200px;
@@ -53,15 +57,16 @@
     padding-right: 50px;
     padding-left: 50px;
     
+    
   }
   
   .header-grid{
-    padding: 2rem;
+    padding: 1rem;
     display:grid;
     grid-template-columns: repeat(3,minmax(0,1fr));
         gap: 2rem;
   }
-  
+
   .header-img{
     width: 80%;
   }
@@ -69,7 +74,24 @@
   .iconos{
     display: inline-block;
     width: 100%;
-    word-spacing: 50px;
+    word-spacing: 13px;
     margin-bottom: 50px;
+    padding-top: 48px;
+  }
+
+  .item{
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .buttonhead{
+    text-align: left;
+
+    padding:14px;
+    border-radius: 15px;
+    margin-left: 100px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
   }
  
