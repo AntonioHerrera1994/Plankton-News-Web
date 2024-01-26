@@ -146,9 +146,36 @@ border-color: #00000023;
 
 .titulo{
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 7%;
+    transform: translate(0%, -50%);
+    font-family: 'Albert Sans', sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+.descripcion{
+  position: absolute;
+    top: 85%;
+    left: 21%;
+    transform: translate(-18%, -50%);
+    text-align: left;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+                    
+}
+
+.categoria{
+  position: absolute;
+  top: 65%;
+  left: 7%;
+  transform: translate(0%, -50%);
+  font-family: 'Albert Sans', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  background-color: #0F1416;
+  color: #DEE1D4;
+  padding: 9px;
+  border-radius: 5px;
 }
 
   /*Navbar */
