@@ -33,13 +33,13 @@
     align-items: center;
   }
   
-  /* Start Header */
+  /********** Start Header **********/
   .planktonN-header{
     padding-bottom: 0px;
  margin-left:-8px;
  margin-right:-8px;
- position: sticky;
-top: 0px;
+ /*position: sticky;*/
+/*top: 0px; */
 background-color: #ffffff;
 z-index: 1;
 border-bottom: solid;
@@ -85,6 +85,8 @@ border-color: #00000023;
     margin-left: 100px;
     padding-top: 35px;
   }
+
+  /********** Navbar **********/
 
   .topnav {
    overflow: hidden;
@@ -137,7 +139,7 @@ border-color: #00000023;
 }
 
 
-/* Img */
+/********** banner **********/
 .banner{
   position: relative;
     display: inline-block;
@@ -178,7 +180,41 @@ border-color: #00000023;
   border-radius: 5px;
 }
 
-  /*Navbar */
+/********** Lista **********/
+.lista{
+margin-left:50px
+}
+.lista h2 {
+  font-family: 'Albert Sans', sans-serif;
+  margin-left:60px;
+  font-size: 18px;
+  }
+
+  .lista p{
+    margin-left:60px;
+  }
+
+  .lista .desc{
+    margin-left:60px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+  }
+
+.lista-grid-1{
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      padding-bottom: 57px;
+}
+
+.lista-grid-2{
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+
+
+
+
   
   @media screen and (min-width:360px) and (max-width:736px) {
     .topnav a:not(:first-child) {display: none;}
