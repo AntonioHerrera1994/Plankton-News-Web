@@ -46,6 +46,7 @@ border-bottom: solid;
 border-width: 1px;
 border-color: #00000023;
   }
+
   .header-cont{
     width: 1200px;
     margin: 0 auto;
@@ -249,6 +250,35 @@ margin-left:50px
   font-family: 'Helvetica', sans-serif;
   font-size: 12px;
 }
+
+/********** Banner contacto **********/
+.banner-container{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+.banner-grid{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 2rem;
+}
+
+.banner-contacto{
+margin-top:-29px;
+}
+
+.banner-contacto h1{
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.banner-contacto p{
+  font-family: 'Helvetica', sans-serif;
+}
+
 
 
 
