@@ -6,6 +6,10 @@
         <title>Plankton News</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;200;300;400;500;600;700&display=swap');
+        </style>
     </head>
 
     <body>
@@ -15,25 +19,20 @@
               <div class="header-cont">
                 <div class="header-grid">
                     <div class="iconos">
-                       
-                             <a class="item" target="_blank">
-                                <i class="bi bi-facebook"></i> </a> 
+                      <a class="item" target="_blank">
+                        <i class="bi bi-facebook"></i> </a> 
 
-                               
-                                    <a class="item" target="_blank">
-                                         <i class="bi bi-instagram"></i> </a>
+                       <a class="item" target="_blank">
+                         <i class="bi bi-instagram"></i> </a>
 
+                       <a class="item" target="_blank">
+                          <i class="bi bi-twitter-x"></i></a>
+                                
+                       <a class="item" target="_blank">
+                          <i class="bi bi-youtube"></i> </a>
                                         
-                                            <a class="item" target="_blank">
-                                                <i class="bi bi-twitter-x"></i></a>
-
-                                             
-                                                    <a class="item" target="_blank">
-                                                         <i class="bi bi-youtube"></i> </a>
-
-                                            
-                                                            <a class="item" target="_blank">
-                                                                 <i class="bi bi-linkedin"></i> </a>
+                       <a class="item" target="_blank">
+                          <i class="bi bi-linkedin"></i> </a>
                     </div>
                   <div class="head-logo">
                     <img class="header-img" 
@@ -50,5 +49,47 @@
               </div>
             </header>
             <!-- End Header-->
+
+            <!-- Navbar-->
+
+            <section class="menu">
+            <div class="menu-cont">
+              <div class="menu-grid">
+                <div>
+                </div>
+            <div class="topnav" id="myTopnav">
+              <a href="#" class="active">Inicio</a>
+              <a href="#">Análisis</a>
+              <a href="#">Crypto</a>
+              <a href="#">Finanzas</a>
+              <a href="#">Acerca de</a>
+              <a href="#">Tecnología</a>
+              <a href="#">Contacto</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="bi bi-list"></i>
+              </a>
+            </div>
+            <div> 
+            </div>
+          </div>
+            </div>
+          </section>
+
+             <!-- End Navbar-->
+
+
+
+
+
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>
     </body>
 </html>
