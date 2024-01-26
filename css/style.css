@@ -192,6 +192,7 @@ margin-left:50px
 
   .lista p{
     margin-left:60px;
+    font-family: 'Helvetica', sans-serif;
   }
 
   .lista .desc{
@@ -211,6 +212,43 @@ margin-left:50px
   grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
+/********** + Leido **********/
+.masleido{
+  padding-bottom: 80px;
+  padding-top: 80px;
+        margin-left:-8px;
+        margin-right:-8px;
+}
+.leido-cont{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.leido-cont h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.leido-grid{
+  padding: 2rem;
+  display:grid;
+  grid-template-columns: repeat(5,minmax(0,1fr));
+      gap: 2rem;
+}
+
+.leido-grid h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 16px;
+}
+
+.leido-grid p{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+}
 
 
 
