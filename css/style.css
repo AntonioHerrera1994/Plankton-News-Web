@@ -310,6 +310,35 @@ margin-left: 18px;
   font-size: 28px;
 }
 
+/********** Crypto **********/
+
+.crypto{
+  padding-bottom: 80px;
+  padding-top: 80px;
+        margin-left:-8px;
+        margin-right:-8px;
+}
+
+.crypto-cont{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.crypto-cont h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.crypto-grid{
+  padding-right: 2rem;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 2rem;
+}
 
 
 
