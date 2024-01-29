@@ -313,7 +313,7 @@ margin-left: 18px;
 /********** Crypto **********/
 
 .crypto{
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   padding-top: 80px;
         margin-left:-8px;
         margin-right:-8px;
@@ -334,6 +334,28 @@ margin-left: 18px;
 }
 
 .crypto-grid{
+  padding-right: 2rem;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 2rem;
+}
+
+/********** Banner 2 **********/
+.banner2{
+  margin-top:-25px;
+margin-left: 18px;
+padding-bottom: 100px;
+}
+
+.banner-container2{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.banner-grid2{
   padding-right: 2rem;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
