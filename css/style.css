@@ -344,7 +344,7 @@ margin-left: 18px;
 .banner2{
   margin-top:-25px;
 margin-left: 18px;
-padding-bottom: 100px;
+
 }
 
 .banner-container2{
@@ -361,6 +361,42 @@ padding-bottom: 100px;
   grid-template-columns: repeat(2,minmax(0,1fr));
       gap: 2rem;
 }
+
+/********** Finanzas **********/
+.finanzas{
+  padding-bottom: 100px;
+  padding-top: 80px;
+        margin-left:-8px;
+        margin-right:-8px;
+}
+
+.finanzas-cont{
+  width: 1250px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 75px;
+  padding-left: 75px;
+}
+
+.finanzas-grid{
+  padding-right: 2rem;
+  display:grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+      gap: 2rem;
+}
+
+.lista-finanzas{
+  margin-left: 50px;
+}
+
+
+.lista-finanzas h2{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+
 
 
 
