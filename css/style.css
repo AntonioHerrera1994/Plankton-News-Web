@@ -141,6 +141,17 @@ border-color: #00000023;
 
 
 /********** banner **********/
+
+.intro{
+  padding-bottom: 80px;
+  margin-top:-px;
+        margin-left:-8px;
+        margin-right:-8px;
+        border-top: solid;
+border-width: 1px;
+border-color: #00000023;
+}
+
 .banner{
   position: relative;
     display: inline-block;
@@ -149,7 +160,7 @@ border-color: #00000023;
 
 .titulo{
   position: absolute;
-    top: 75%;
+    top: 80%;
     left: 7%;
     transform: translate(0%, -50%);
     font-family: 'Albert Sans', sans-serif;
@@ -158,7 +169,7 @@ border-color: #00000023;
 }
 .descripcion{
   position: absolute;
-    top: 85%;
+    top: 88%;
     left: 21%;
     transform: translate(-18%, -50%);
     text-align: left;
@@ -181,19 +192,38 @@ border-color: #00000023;
   border-radius: 5px;
 }
 
+.fecha{
+
+    position: absolute;
+    top: 71%;
+    left: 7%;
+    transform: translate(0%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    text-align: left;
+    font-size: 14px;
+
+  
+}
+
 /********** Lista **********/
 .lista{
-margin-left:50px
+  margin-top:88px;
+margin-left: 25px;
+
 }
 .lista h2 {
   font-family: 'Albert Sans', sans-serif;
   margin-left:60px;
   font-size: 18px;
+  font-weight: 500;
   }
 
   .lista p{
     margin-left:60px;
     font-family: 'Helvetica', sans-serif;
+    word-spacing: 1px;
+    text-align: justify;
+    color:#0f14169d;
   }
 
   .lista .desc{
@@ -215,8 +245,8 @@ margin-left:50px
 
 /********** + Leido **********/
 .masleido{
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 100px;
+
         margin-left:-8px;
         margin-right:-8px;
 }
@@ -252,6 +282,12 @@ margin-left:50px
 }
 
 /********** Banner contacto **********/
+.banner-contacto{
+  margin-top:-25px;
+  margin-left: 18px;
+  padding-bottom: 50px;
+  }
+  
 .banner-container{
   width: 1250px;
   margin: 0 auto;
@@ -267,10 +303,7 @@ margin-left:50px
       gap: 2rem;
 }
 
-.banner-contacto{
-margin-top:-25px;
-margin-left: 18px;
-}
+
 
 .banner-contacto h1{
   font-family: 'Albert Sans', sans-serif;
@@ -283,8 +316,8 @@ margin-left: 18px;
 
 /********** Analisis Financiero **********/
 .analisis{
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 60px;
+ 
         margin-left:-8px;
         margin-right:-8px;
 }
@@ -314,7 +347,7 @@ margin-left: 18px;
 
 .crypto{
   padding-bottom: 100px;
-  padding-top: 80px;
+
         margin-left:-8px;
         margin-right:-8px;
 }
@@ -378,6 +411,12 @@ margin-left: 18px;
   padding-left: 75px;
 }
 
+.finanzas-cont h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
 .finanzas-grid{
   padding-right: 2rem;
   display:grid;
@@ -425,6 +464,18 @@ margin-left: 18px;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
       gap: 2rem;
+}
+
+.seccizq h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.seccdev h1{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 400;
+  font-size: 28px;
 }
 
 
