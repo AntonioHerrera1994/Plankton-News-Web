@@ -373,6 +373,43 @@ margin-left: 25px;
       gap: 2rem;
 }
 
+.crypto1 h2{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-top: 25px;
+}
+
+.crypto2 h2{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 27px;
+  margin-right: 27px;
+  margin-top: 25px;
+}
+
+.crypto1 p{
+  font-family: 'Helvetica', sans-serif;
+  font-size:14px;
+  margin-left: 27px;
+  margin-right: 27px;
+  text-align: justify;
+  color: #0f14169d;
+  
+}
+
+.crypto2 p{
+  font-family: 'Helvetica', sans-serif;
+  font-size:14px;
+  margin-left: 27px;
+  margin-right: 27px;
+  text-align: justify;
+  color: #0f14169d;
+}
+
 /********** Banner 2 **********/
 .banner2{
   margin-top:-25px;
@@ -432,7 +469,14 @@ margin-left: 18px;
 .lista-finanzas h2{
   font-family: 'Albert Sans', sans-serif;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
+}
+
+.lista-finanzas p{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #0f14169d;
 }
 
 /********** Secciones **********/
@@ -476,6 +520,32 @@ margin-left: 18px;
   font-family: 'Albert Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
+}
+
+.seccizq h2{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.seccizq p{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0f14169d;
+}
+
+.seccdev h2{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.seccdev p{
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #0f14169d;
 }
 
 
