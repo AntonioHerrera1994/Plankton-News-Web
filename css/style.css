@@ -430,7 +430,7 @@ margin-left: 18px;
 
 /********** Footer **********/
 .footer{
-  padding-bottom: 80px;
+
   padding-top: 80px;
         margin-left:-8px;
         margin-right:-8px;
@@ -440,6 +440,7 @@ margin-left: 18px;
   width: 1250px;
   margin: 0 auto;
   overflow: hidden;
+
   padding-right: 75px;
   padding-left: 75px;
 }
@@ -448,13 +449,13 @@ margin-left: 18px;
   padding-right: 2rem;
   display:grid;
   grid-template-columns: repeat(2,minmax(0,1fr));
-      gap: 2rem;
+      gap: 1rem;
 }
 
 .footnav{
 
    padding-top: 40px;
-
+   margin-left: -60px;
   
 }
 
@@ -462,11 +463,12 @@ margin-left: 18px;
   float: left;
   display: block;
   color: #0F1416;
-  text-align: center;
+  text-align: left;
   padding: 14px 16px;
   text-decoration: none;
   font-family: 'Albert Sans', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
+  margin-left: -13px;
 }
 
 .footnav a:hover {
@@ -479,6 +481,18 @@ margin-left: 18px;
 
 .footnav .icon {
   display: none;
+}
+
+.footer-img{
+  width: 48%;
+  margin-left: 115px;
+}
+
+.footer2-grid{
+  padding-right: 2rem;
+  display:grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+      gap: 1rem;
 }
 
 
