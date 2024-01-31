@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <title>Plankton News</title>
         <link rel="stylesheet" href="css/style.css">
@@ -433,10 +433,10 @@
             <script>
               function myFunction() {
                 var x = document.getElementById("myTopnav");
-                if (x.className === "footnav") {
+                if (x.className === "topnav") {
                   x.className += " responsive";
                 } else {
-                  x.className = "footnav";
+                  x.className = "topnav";
                 }
               }
 
@@ -450,9 +450,10 @@
               }
 
 
-              const blogsDv = document.querySelector('.blogs');
+// javascript for index.html
+const blogsDv = document.querySelector('.blogs');
 
-// ******************** Blog Json ******************** //
+
 
 const url = "http://localhost:3000/blogs";
 
@@ -480,6 +481,7 @@ function printBlogs(blogData){
 
     })
 }
+
 
               
               </script>

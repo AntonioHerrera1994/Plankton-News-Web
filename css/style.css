@@ -641,7 +641,7 @@ margin-left: 18px;
   }
   
 
-  /*General*/
+
   @media screen and (min-width:360px) and (max-width:736px) {
 /*Global */
 .container {
@@ -654,7 +654,7 @@ margin-left: 18px;
       flex-direction: column;
     }
 
-/* Start Header */
+/********** Header **********/
 .header-cont{
   width: auto;
   padding-left: 20px;
@@ -666,7 +666,7 @@ margin-left: 18px;
   padding-right: 10px;
     
 }
-.biso-header{
+.planktonN-header{
 margin: 0 auto;
 top: 0px;
 background-color: #fdfdfd;
@@ -676,5 +676,127 @@ margin-right: -8px;
 
 .header-img{
 width: 35%;
+}
+
+/********** Menu **********/
+.menu-content{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.menu{
+  width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 7;
+}
+
+
+
+
+/********** Main Grid **********/
+
+/********** Mas leido **********/
+.leido-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+/********** banner contacto **********/
+.banner-container{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.banner-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/********** Analisis Financiero **********/
+.analisis-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.analisis-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/********** Crypto **********/
+.crypto-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.crypto-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/********** Banner 2 **********/
+.banner-container2{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+/********** Finanzas **********/
+.finanzas-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.finanzas-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/********** Secciones **********/
+.secciones-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+.secciones-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.seccintgrid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+/********** Footer **********/
+.footer-cont{
+  width: auto;
+  padding-left: 20px;
+  padding-right: 0px;
+}
+
+.footer-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
+}
+
+.footer2-grid{
+  grid-template-columns: repeat(1,minmax(0,1fr));
+  padding-left:10px;
+  padding-right: 10px;
 }
 }
