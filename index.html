@@ -13,6 +13,7 @@
         <style>
           @import url('https://fonts.cdnfonts.com/css/helvetica-255');
           </style>
+          
     </head>
 
     <body>
@@ -357,7 +358,15 @@
 
           </section>
           <!------------ End Acerca de / Tecnologia ------------>
+          <div class="blogs">
+            <!-- inject blogs here from js -->
+            <h2>
 
+            </h2>
+            <p>
+              
+            </p>
+          </div>
           <!------------ Footer ------------>
           <footer class="footer">
             <div class="footer-cont">
@@ -369,7 +378,7 @@
                   alt="Plankton News"
                   />
                 </div>
-                <div class="footnav" id="myTopnav">
+                <div class="footnav" id="myfooterTopnav">
                   <a href="#" class="active">Inicio</a>
                   <a href="#">Análisis</a>
                   <a href="#">Crypto</a>
@@ -377,7 +386,7 @@
                   <a href="#">Acerca de</a>
                   <a href="#">Tecnología</a>
                   <a href="#">Contacto</a>
-                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <a href="javascript:void(0);" class="icon" onclick="myfooterFunction()">
                     <i class="bi bi-list"></i>
                   </a>
                 </div>
@@ -419,16 +428,60 @@
           </footer>
           <!------------ End Footer ------------>
 
+        
 
             <script>
               function myFunction() {
                 var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
+                if (x.className === "footnav") {
                   x.className += " responsive";
                 } else {
-                  x.className = "topnav";
+                  x.className = "footnav";
                 }
               }
+
+              function myfooterFunction() {
+                var x = document.getElementById("myfooterTopnav");
+                if (x.className === "footnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "footnav";
+                }
+              }
+
+
+              const blogsDv = document.querySelector('.blogs');
+
+// ******************** Blog Json ******************** //
+
+const url = "http://localhost:3000/blogs";
+
+fetchBlogs();
+
+async function fetchBlogs(){
+    let data = await fetch(url);
+    let blogs = await data.json();
+
+    printBlogs(blogs)
+}
+
+function printBlogs(blogData){
+    blogData.forEach(item =>{
+        let containerB = document.createElement('div');
+        containerB.classList.add('blog');
+
+        containerB.innerHTML = `
+        <h2>${item.tittle}</h2>
+        <p>${item.body}</p>
+        <a href="">Read more...</a>
+        `;
+        
+        blogsDv.appendChild(containerB);
+
+    })
+}
+
+              
               </script>
     </body>
 </html>
