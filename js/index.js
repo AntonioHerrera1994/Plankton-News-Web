@@ -20,9 +20,8 @@ function printBlogs(blogData){
         containerB.classList.add('blog');
 
         containerB.innerHTML = `
-        <h2>${item.tittle}</h2>
+        <h2>${item.title}</h2>
         <p>${item.body}</p>
-        <a href="">Read more...</a>
         `;
         
         blogsDv.appendChild(containerB);

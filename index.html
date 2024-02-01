@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <title>Plankton News</title>
         <link rel="stylesheet" href="css/style.css">
+        
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <style>
@@ -46,7 +47,7 @@
                     />
                   </div>
                   <div class="head-boton">
-          <p class="buttonhead"><a href="#" style="color: black; font-size: 18px; text-transform: none;text-align: right;">
+          <p class="buttonhead"><a href="#" style="color: white; font-size: 18px; text-transform: none;text-align: right;">
             Sucribete
           </a>
         </div>
@@ -87,9 +88,9 @@
               <!------------ Banner ------------>
               <div class="banner">
               <img src="Imagenes/pn.jpeg" alt="Primer imagen" width="550" height="500">
-              <div class="titulo">Rol de la CNBV en el entorno financiero mexicano</div>
-              <p class="fecha"> Fecha</p>
-              <div class="descripcion">Rol de la CNBV en el entorno financiero mexicano En el vasto mundo de las finanzas personales y los mercados...
+              <div class="titulo"></div>
+              <h4 class="fecha"> Fecha</h4>
+              <div class="descripcion">
               </div>
               <div class="categoria">Sin categoria</div>
             </div>
@@ -97,10 +98,10 @@
             <diV class="lista">
                 <div class="lista-grid-1">
                   <img src="Imagenes/pn.jpeg" alt="srunda imagen" width="300" height="200"> 
-                  <div style="margin-top:-12px;"> 
-                    <p style="background-color: #0F1416;color: #DEE1D4;padding: 9px;border-radius: 5px;margin-right: 90px;">Sin categoria</p>
+                  <div style="margin-top:-12px;" class="list-respons"> 
+                    <h3 style="background-color: #0F1416;color: #DEE1D4;padding: 9px;border-radius: 5px;margin-right: 90px;">Sin categoria</h3>
                     <h2>Rol de la CNBV en el entorno financiero mexicano</h2>
-                    <p style="font-size: 14px;color:#0F1416;">Fecha</p>
+                    <h4 >Fecha</h4>
                     <p class="desc">Rol de la CNBV en el entorno financiero mexicano En el vasto mundo de las finanzas personales 
                       y los mercados, la Comisión…
                     </p>
@@ -109,9 +110,9 @@
                 <div class="lista-grid-2">
                   <img src="Imagenes/pn.jpeg" alt="srunda imagen" width="300" height="200"> 
                   <div style="margin-top:-12px;"> 
-                    <p style="background-color: #0F1416;color: #DEE1D4;padding: 9px;border-radius: 5px;margin-right: 90px;">Sin categoria</p>
+                    <h3 style="background-color: #0F1416;color: #DEE1D4;padding: 9px;border-radius: 5px;margin-right: 90px;">Sin categoria</h3>
                     <h2>Rol de la CNBV en el entorno financiero mexicano</h2>
-                    <p style="font-size: 14px;color:#0F1416;">Fecha</p>
+                    <h4 >Fecha</h4>
                     <p class="desc">Rol de la CNBV en el entorno financiero mexicano En el vasto mundo de las finanzas personales 
                       y los mercados...
                     </p>
@@ -358,15 +359,7 @@
 
           </section>
           <!------------ End Acerca de / Tecnologia ------------>
-          <div class="blogs">
-            <!-- inject blogs here from js -->
-            <h2>
-
-            </h2>
-            <p>
-              
-            </p>
-          </div>
+         
           <!------------ Footer ------------>
           <footer class="footer">
             <div class="footer-cont">
@@ -428,7 +421,15 @@
           </footer>
           <!------------ End Footer ------------>
 
-        
+          <!--<div class="blogs"> -->
+            <!-- inject blogs here from js -->
+            <!--<h2>
+
+            </h2>
+            <p>
+              
+            </p>
+          </div> -->
 
             <script>
               function myFunction() {
@@ -472,15 +473,17 @@ function printBlogs(blogData){
         containerB.classList.add('blog');
 
         containerB.innerHTML = `
-        <h2>${item.tittle}</h2>
+        <h2>${item.title}</h2>
         <p>${item.body}</p>
-        <a href="">Read more...</a>
         `;
         
         blogsDv.appendChild(containerB);
 
     })
+
 }
+
+
 
 
               
