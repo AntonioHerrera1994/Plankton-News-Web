@@ -80,13 +80,23 @@ border-color: #00000023;
 
   .buttonhead{
     text-align: center;
+    margin-top: 39px;
     font-family: 'Albert Sans', sans-serif;
-    padding:14px;
-    border-radius: 15px;
-    margin-left: 100px;
-    padding-top: 35px;
+    padding:13px;
+    border-radius: 13px;
+    margin-left: 110px;
+    margin-right: 110px;
     background: #0F1416;
     color: white;
+  }
+
+  .buttonhead:hover{
+    background: white;
+    color: #0F1416;
+    border:solid;
+    border-width: 1px;
+    border-color: #0F1416;
+
   }
 
   /********** Navbar **********/
@@ -145,7 +155,7 @@ border-color: #00000023;
 /********** banner **********/
 
 .intro{
-  padding-bottom: 80px;
+ 
   margin-top:-px;
         margin-left:-8px;
         margin-right:-8px;
@@ -208,6 +218,19 @@ border-color: #00000023;
   
 }
 
+.meta-main{
+  vertical-align: top;
+  display: inline;
+  padding: 0.3em;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 13px;
+  position: absolute;
+  top: 80%;
+  left: 5.5%;
+  transform: translate(0%, -50%);
+
+}
+
 /********** Lista **********/
 .lista{
   margin-top:88px;
@@ -259,6 +282,18 @@ margin-left: 25px;
   grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
+.meta-list{
+  margin-left: 55px;
+}
+.meta-list li{
+  display: inline;
+  padding: 0.5em;
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    color: #0f1416;
+   
+}
+
 /********** + Leido **********/
 .masleido{
   padding-bottom: 100px;
@@ -295,6 +330,14 @@ margin-left: 25px;
 .leido-grid p{
   font-family: 'Helvetica', sans-serif;
   font-size: 12px;
+}
+
+.meta li{
+  
+    padding: 0.5em;
+    font-size: 13px;
+    font-family: 'Helvetica', sans-serif;
+    color: #0f1416;
 }
 
 /********** Banner contacto **********/
@@ -357,6 +400,18 @@ margin-left: 25px;
   font-family: 'Albert Sans', sans-serif;
   font-weight: 400;
   font-size: 28px;
+}
+
+.meta-analisis{
+  display: inline;
+  position: absolute;
+    top: 75%;
+    left: 7%;
+    transform: translate(0%, -50%);
+    font-family: 'Helvetica', sans-serif;
+    text-align: left;
+    font-size: 13px;
+   
 }
 
 /********** Crypto **********/
@@ -426,11 +481,22 @@ margin-left: 25px;
   color: #0f14169d;
 }
 
+.meta-crypto li{
+  vertical-align: top;
+    display: inline;
+    font-size: 1.2em;
+    padding: 0.3em;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 13px;
+    margin-left: 27px;
+  
+}
+
 /********** Banner 2 **********/
 .banner2{
   margin-top:-25px;
 margin-left: 18px;
-
+ 
 }
 
 .banner-container2{
@@ -495,11 +561,21 @@ margin-left: 18px;
   color: #0f14169d;
 }
 
+.meta-finanzas li{
+  vertical-align: top;
+    display: inline;
+    font-size: 1.2em;
+    padding: 0.3em;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 13px;
+    
+}
+
 /********** Secciones **********/
 
 .secciones{
-  padding-bottom: 80px;
-  padding-top: 80px;
+ 
+
         margin-left:-8px;
         margin-right:-8px;
 }
@@ -795,6 +871,11 @@ margin-left: 18px;
   width: auto;
   padding-left: 20px;
   padding-right: 0px;
+}
+
+.leido-grid{
+  margin: 0 auto;
+  grid-template-columns: repeat(1,minmax(0,1fr));
 }
 
 /********** banner contacto **********/
