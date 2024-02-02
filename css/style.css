@@ -708,6 +708,13 @@ margin-left: 18px;
       gap: 1rem;
 }
 
+.footer2-grid p{
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.iconos{
+  text-align: center;
+}
 
   
   @media screen and (min-width:360px) and (max-width:736px) {
