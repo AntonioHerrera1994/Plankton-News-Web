@@ -102,14 +102,13 @@ border-color: #00000023;
   /********** Navbar **********/
 
   .topnav {
-   overflow: hidden;
-   padding-top: 40px;
-   grid-column: 7;
-   margin-right: 260px;
+    padding-top: 45px;
+    margin-left: -60px;
+    padding-bottom: 40px;
   }
   
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #0F1416;
     text-align: center;
@@ -132,24 +131,27 @@ border-color: #00000023;
   }
 
 .menu{
-  width: 1200px;
-  margin: 0 auto;
-  overflow: hidden;
+  
+  margin-left:-8px;
+  margin-right:275px;
 }
 
 .menu-content{
-  width: 100%;
+  width: 1250px;
   margin: 0 auto;
   overflow: hidden;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 .menu-grid{
+  padding-right: 2rem;
   display:grid;
-  grid-template-columns: repeat(3,minmax(0,1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(1,minmax(0,1fr));
+      gap: 1rem;
 }
+
+
 
 
 /********** banner **********/
@@ -794,18 +796,13 @@ margin-left: 18px;
 }
 
 /********** Menu **********/
-.menu-content{
-  width: auto;
-  padding-left: 20px;
-  padding-right: 0px;
+
+
+.menu-grid{
+  margin: 0 auto;
+  grid-template-columns: repeat(1,minmax(0,1fr));
 }
 
-.menu{
-  width: 0;
-  margin: 0 auto;
-  overflow: hidden;
-  z-index: 7;
-}
 
 
 
@@ -979,5 +976,12 @@ margin-left: 18px;
   grid-template-columns: repeat(1,minmax(0,1fr));
   padding-left:10px;
   padding-right: 10px;
+}
+}
+
+@media (min-width: 1400px) {
+
+.menu{
+  margin-right:560px;
 }
 }
